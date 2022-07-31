@@ -1,10 +1,10 @@
 
-  # Test Time
+  # Frank Kobe
   ## Licensing: 
-[![license](https://img.shields.io/badge/License-No License Applied-green.svg)](https://opensource.org/licenses/No License Applied)
+[![license](https://img.shields.io/badge/License-MIT-green.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
-This is to generate a readme as best possible
+Frank Kobe
 ## Table of Contents
 + [Installation](#installation)
 + [Usage](#usage)
@@ -12,10 +12,16 @@ This is to generate a readme as best possible
 + [Testing](#testing)
 
 ## Installation
-  through the power of friendship
+  Frank Kobe
+
 ## Usage
-  follow instructions, use
+  Frank Kobe
+
 ## Contributing
-  no other contributors
+  Frank Kobe
+
+## Testing
+  Frank Kobe
+  
 ## Questions:
 If you have any questions on the program, please contact me at Github, my name is fkobe3, or via email at fkobe3@gmail.com.

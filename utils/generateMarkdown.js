@@ -27,10 +27,16 @@ ${data.description}
 
 ## Installation
   ${data.installation}
+
 ## Usage
   ${data.usage}
+
 ## Contributing
   ${data.contributing}
+
+## Testing
+  ${data.testing}
+  
 ## Questions:
 If you have any questions on the program, please contact me at Github, my name is ${data.github}, or via email at ${data.email}.
 `;
