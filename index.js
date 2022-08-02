@@ -4,7 +4,7 @@ const fs = require('fs');
 const generateMarkdown = require('./utils/generateMarkdown');
 
 console.log('Do you want assistance creating a README?');
-console.log('Please answer all questions to the best of your ability to assist with teh README creation.');
+console.log('Please answer all questions to the best of your ability to assist with the README creation.');
 // TODO: Create an array of questions for user input
 const questions = [
     //Title
@@ -36,7 +36,7 @@ const questions = [
         type: "list",
         name: "license",
         message: "If your project is licensed, what license is it under?",
-        choices: ["MIT", "Apache", "GPL", "BSD", "No License Applied"],
+        choices: ["MIT", "Apache", "GPL", "BSD", "LGPL", "MPL", "CDDL", "EPL", "None"],
         },
     //Contributing
     {
@@ -70,7 +70,6 @@ function writetoFile (fileName, data) {
         if (err) {
             throw err;
         }
-        console.log("Thank you for your answers. Please look at the generated README to make sure it matches your expectations.");
     });
 }
 // TODO: Create a function to initialize app
@@ -78,6 +77,7 @@ function init() {
     inquirer.prompt(questions)
     .then (function (answers) {
         console.log(generateMarkdown(answers))
+        console.log('Creating README based off of the answers provided.');
         fs.writeFileSync("./README.md", generateMarkdown(answers));
     })
 }
