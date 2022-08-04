@@ -18,7 +18,7 @@ This program allows you to create a README based off of answers to inputs that y
 ## Usage
   Examples of use would be primarly when creating a README for any type of project on Github, as you can see from the attached video (You are seeing the creation of the README you are currently reading).
 
-  <iframe width="1280" height="720" src="https://www.youtube.com/embed/r0QYPQPu0EI" title="Example of Running the Make Me a README" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+  [![Watch the video](https://img.youtube.com/vi/r0QYPQPu0EI/hqdefault.jpg] (https://youtu.be/r0QYPQPu0EI)
 
 ## Contributing
   No other contributors were involved in this project.
